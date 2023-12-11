@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: peachpuff;
+  font-family: system-ui;
+  width: 600px;
+}
+header {
+  background-color: plum;
+  color: coral;
+  padding: 5px;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  color: coral;
+  text-shadow: 0 0 3px darkmagenta;
+  text-transform: uppercase;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  border: 1px solid plum;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  border: 1px solid plum;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 110px;
+  left: 76px;
+}
+footer {
+  background-color: plum;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
