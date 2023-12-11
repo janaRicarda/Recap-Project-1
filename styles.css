@@ -37,6 +37,14 @@ p {
   text-align: center;
   padding-top: 20px;
 }
+.bookmark {
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
 button {
   width: 150px;
   height: 50px;
