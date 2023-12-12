@@ -13,7 +13,7 @@
     <main>
       <section class="question-card">
         <p class="question-text">Welcher Klee gehört ins Curry?</p>
-        <button aria-label="bookmark-icon" class="bookmark">🌶️</button>
+        <button aria-label="bookmark-icon" class="bookmarked">🌶️</button>
         <button>Show Answer</button>
         <section class="hashtag-section">
           <p class="hashtag">#quiz</p>
@@ -23,7 +23,7 @@
       </section>
       <section class="question-card">
         <p class="question-text">Welches Gewürz ist eine Baumrinde?</p>
-        <button aria-label="bookmark-icon" class="bookmark">🌶️</button>
+        <button aria-label="bookmark-icon" class="bookmarked">🌶️</button>
         <button>Show Answer</button>
         <section class="hashtag-section">
           <p class="hashtag">#quiz</p>
@@ -33,7 +33,7 @@
       </section>
       <section class="question-card">
         <p class="question-text">Welche Orchidee benutzen wir beim Backen</p>
-        <button aria-label="bookmark-icon" class="bookmark">🌶️</button>
+        <button aria-label="bookmark-icon" class="bookmarked">🌶️</button>
         <button>Show Answer</button>
         <section class="hashtag-section">
           <p class="hashtag">#quiz</p>
@@ -44,13 +44,16 @@
     </main>
     <footer>
       <nav>
-        <a class="nav-icon-active" aria-label="home-page" href="index.html"
-          >🏠</a
-        >
-        <a class="nav-icon" aria-label="bookmarks-page" href="bookmark.html"
+        <a class="nav-icon" aria-labelledby="home-page" href="index.html">🏠</a>
+        <a
+          class="nav-icon-active"
+          aria-labelledby="bookmarks-page"
+          href="bookmark.html"
           >🌶️</a
         >
-        <a class="nav-icon" aria-label="profile-page" href="profil.html">👩🏻</a>
+        <a class="nav-icon" aria-labelledby="profile-page" href="profil.html"
+          >👩🏻</a
+        >
       </nav>
     </footer>
   </body>
