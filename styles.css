@@ -7,14 +7,13 @@ body {
 }
 header {
   background-color: plum;
-  color: coral;
   padding: 5px;
   text-align: center;
 }
 h1 {
   font-size: 3rem;
   color: aquamarine;
-  text-shadow: 0 0 3px darkmagenta;
+  text-shadow: 0 0 5px darkmagenta;
   text-transform: uppercase;
 }
 main {
@@ -28,7 +27,7 @@ main {
 .question-card {
   height: 300px;
   width: 300px;
-  border: 3px solid plum;
+  border: 3px solid darkmagenta;
   border-radius: 12px;
   margin: 10px;
   padding: 10px;
@@ -40,26 +39,49 @@ main {
 }
 .bookmark {
   font-size: 2rem;
-  border: 1px solid darkmagenta;
+  border: 2px solid darkmagenta;
   border-radius: 50%;
   padding: 10px;
   background-color: aquamarine;
   position: absolute;
-  top: -40px;
-  right: -10px;
+  top: 0;
+  right: 0;
 }
-bookmark:hover {
-  background-color: grey;
+
+.bookmarked {
+  font-size: 2rem;
+  border: 2px solid darkmagenta;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(167, 102, 228);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 button {
   width: 150px;
   height: 50px;
-  border: 1px solid darkmagenta;
+  font-size: large;
+  border: 3px solid darkmagenta;
   border-radius: 12px;
   position: absolute;
   bottom: 110px;
   left: 76px;
+}
+.hashtag-section {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3px;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.hashtag {
+  border: 2px solid darkmagenta;
+  border-radius: 12px;
+  padding: 5px;
 }
 footer {
   background-color: plum;
@@ -69,13 +91,23 @@ footer {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px;
 }
 .nav-icon {
-  font-size: 2.5em;
+  font-size: 4rem;
   background-color: aquamarine;
-  border: 1px solid darkmagenta;
-  border-radius: 50%;
-  padding: 20px;
+  /*border: 2px solid darkmagenta;
+  /*border-radius: 50%;*/
+  padding: 20px 100px 20px 100px;
+  text-decoration: none;
+}
+
+.nav-icon-active {
+  font-size: 4.5rem;
+  background-color: rgb(167, 102, 228);
+  /*border: 2px solid darkmagenta;
+  /*border-radius: 50%;*/
+  padding: 20px 100px 20px 100px;
+  text-decoration: none;
 }
