@@ -7,20 +7,35 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Spice Quiz</h1>
+    <header aria-labelledby="title">
+      <h1 id="title">Spice Quiz</h1>
     </header>
     <main>
-      <div class="questioncard">
-        <p>Welcher Klee gehört ins Curry?</p>
-        <button>Show Answer</button>
-      </div>
+      <section class="question-card">
+        <p class="question-text">Welcher Klee gehört ins Curry?</p>
+        <p class="bookmark">🌶️</p>
+        <button aria-labelledby="answer-button">Show Answer</button>
+      </section>
+      <section class="question-card">
+        <p class="question-text">Welches Gewürz ist eine Baumrinde?</p>
+        <p class="bookmark">🌶️</p>
+        <button aria-labelledby="answer-button">Show Answer</button>
+      </section>
+      <section class="question-card">
+        <p class="question-text">Welche Orchidee benutzen wir beim Backen</p>
+        <p class="bookmark">🌶️</p>
+        <button aria-labelledby="answer-button">Show Answer</button>
+      </section>
     </main>
     <footer>
       <nav>
-        <a>Home</a>
-        <a>Bookmarks</a>
-        <a>Profile</a>
+        <a class="nav-icon" aria-labelledby="home" href="index.html">🏠</a>
+        <a class="nav-icon" aria-labelledby="bookmark-page" href="bookmark.html"
+          >🌶️</a
+        >
+        <a class="nav-icon" aria-labelledby="profil-page" href="profil.html"
+          >👩🏻</a
+        >
       </nav>
     </footer>
   </body>
