@@ -34,27 +34,28 @@ main {
   position: relative;
 }
 .question-text {
+  font-size: 1.5rem;
   text-align: center;
   padding-top: 40px;
 }
 .bookmark {
   font-size: 2rem;
   border-radius: 50%;
-  padding: 10px;
+  padding: 0;
   background-color: aquamarine;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -10px;
+  left: 160px;
 }
 
 .bookmarked {
   font-size: 2rem;
   border-radius: 50%;
-  padding: 10px;
+  padding: 0;
   background-color: rgb(167, 102, 228);
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -10px;
+  left: 160px;
 }
 
 button {
@@ -64,7 +65,7 @@ button {
   border: 3px solid rgb(167, 102, 228);
   border-radius: 12px;
   position: absolute;
-  bottom: 110px;
+  bottom: 90px;
   left: 76px;
 }
 .hashtag-section {
@@ -89,7 +90,8 @@ footer {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 0.5rem;
   padding: 10px;
 }
 .nav-icon {
@@ -97,7 +99,7 @@ nav {
   background-color: aquamarine;
   /*border: 2px solid darkmagenta;*/
   border-radius: 3px;
-  padding: 20px 100px 20px 100px;
+  padding: 20px 80px 20px 80px;
   text-decoration: none;
 }
 
@@ -106,7 +108,7 @@ nav {
   background-color: rgb(167, 102, 228);
   /*border: 2px solid darkmagenta;*/
   border-radius: 3px;
-  padding: 20px 100px 20px 100px;
+  padding: 20px 80px 20px 80px;
   text-decoration: none;
 }
 
@@ -118,7 +120,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .profile-icon {
   font-size: 5rem;
