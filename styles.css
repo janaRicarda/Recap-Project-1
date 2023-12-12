@@ -86,11 +86,12 @@ footer {
   background-color: plum;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  /*width: 100%;*/
 }
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   padding: 10px;
 }
