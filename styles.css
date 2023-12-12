@@ -2,9 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: peachpuff;
+  background-color: lemonchiffon;
   font-family: system-ui;
-  width: 600px;
 }
 header {
   background-color: plum;
@@ -13,43 +12,51 @@ header {
   text-align: center;
 }
 h1 {
-  font-size: 2.5rem;
-  color: coral;
+  font-size: 3rem;
+  color: aquamarine;
   text-shadow: 0 0 3px darkmagenta;
   text-transform: uppercase;
 }
 main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 110px;
 }
 
-div {
+.question-card {
   height: 300px;
   width: 300px;
-  border: 1px solid plum;
-  border-radius: 3px;
+  border: 3px solid plum;
+  border-radius: 12px;
   margin: 10px;
   padding: 10px;
   position: relative;
 }
-p {
+.question-text {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .bookmark {
   font-size: 2rem;
+  border: 1px solid darkmagenta;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: aquamarine;
   position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
+  top: -40px;
+  right: -10px;
+}
+bookmark:hover {
+  background-color: grey;
 }
 
 button {
   width: 150px;
   height: 50px;
-  border: 1px solid plum;
-  border-radius: 5px;
+  border: 1px solid darkmagenta;
+  border-radius: 12px;
   position: absolute;
   bottom: 110px;
   left: 76px;
@@ -59,4 +66,16 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.nav-icon {
+  font-size: 2.5em;
+  background-color: aquamarine;
+  border: 1px solid darkmagenta;
+  border-radius: 50%;
+  padding: 20px;
 }
