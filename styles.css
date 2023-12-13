@@ -68,6 +68,9 @@ button {
   bottom: 90px;
   left: 76px;
 }
+button:hover {
+  background-color: rgb(227, 239, 96);
+}
 .hashtag-section {
   display: flex;
   justify-content: flex-start;
@@ -86,7 +89,7 @@ footer {
   background-color: plum;
   position: fixed;
   bottom: 0;
-  /*width: 100%;*/
+  width: 100%;
 }
 nav {
   display: flex;
@@ -100,16 +103,16 @@ nav {
   background-color: aquamarine;
   /*border: 2px solid darkmagenta;*/
   border-radius: 3px;
-  padding: 20px 80px 20px 80px;
+  padding: 10px 80px 20px 80px;
   text-decoration: none;
 }
 
 .nav-icon-active {
-  font-size: 4.5rem;
+  font-size: 4rem;
   background-color: rgb(167, 102, 228);
   /*border: 2px solid darkmagenta;*/
   border-radius: 3px;
-  padding: 20px 80px 20px 80px;
+  padding: 10px 80px 20px 80px;
   text-decoration: none;
 }
 
