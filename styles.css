@@ -68,8 +68,9 @@ button {
   bottom: 90px;
   left: 76px;
 }
-button:hover {
-  background-color: rgb(227, 239, 96);
+.answerbutton:hover {
+  background-color: aquamarine;
+  color: rgb(167, 102, 228);
 }
 .hashtag-section {
   display: flex;
