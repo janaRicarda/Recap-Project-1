@@ -8,15 +8,23 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: lemonchiffon;
+  --secondary-color: plum;
+  --tertiary-color: aquamarine;
+  --border-color: rgb(167, 102, 228);
+}
+
 body {
-  background-color: lemonchiffon;
+  background-color: var(--primary-color);
   font-family: system-ui;
 }
 header {
-  background-color: plum;
+  background-color: var(--secondary-color);
   padding: 5px;
   text-align: center;
 }
+
 h1 {
   font-size: 3rem;
   color: aquamarine;
@@ -35,15 +43,15 @@ main {
   width: 150px;
   height: 50px;
   font-size: large;
-  border: 3px solid rgb(167, 102, 228);
+  border: 3px solid var(--border-color);
   border-radius: 12px;
   position: absolute;
   bottom: 90px;
   left: 76px;
 }
 .answerbutton:hover {
-  background-color: aquamarine;
-  color: rgb(167, 102, 228);
+  background-color: var(--tertiary-color);
+  color: var(--border-color);
 }
 .hashtag-section {
   display: flex;
@@ -55,19 +63,19 @@ main {
   left: 0;
 }
 .hashtag {
-  border: 2px solid rgb(167, 102, 228);
+  border: 2px solid var(--border-color);
   border-radius: 12px;
   padding: 5px;
 }
 footer {
-  background-color: plum;
+  background-color: var(--secondary-color);
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
 .profile {
-  background-color: aquamarine;
+  background-color: var(--tertiary-color);
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 10px;
