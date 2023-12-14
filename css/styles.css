@@ -39,7 +39,7 @@ main {
   margin-bottom: 150px;
 }
 
-.answerbutton {
+.question {
   width: 150px;
   height: 50px;
   font-size: large;
@@ -48,11 +48,45 @@ main {
   position: absolute;
   bottom: 90px;
   left: 76px;
+  z-index: 1;
 }
-.answerbutton:hover {
+
+.answer {
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  border: 3px solid var(--border-color);
+  color: var(--border-color);
+  background-color: var(--tertiary-color);
+  border-radius: 12px;
+  position: absolute;
+  bottom: 90px;
+  left: 76px;
+  z-index: -1;
+}
+
+.question:hover {
   background-color: var(--tertiary-color);
   color: var(--border-color);
 }
+
+/*.answer {
+  display: none;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  color: var(--border-color);
+  font-size: 2rem;
+  padding-top: 40px;
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  position: absolute;
+  bottom: -30px;
+  left: -4px;
+  z-index: 1;
+}*/
+
 .hashtag-section {
   display: flex;
   justify-content: flex-start;
