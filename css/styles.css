@@ -1,6 +1,13 @@
-* {
+@import "components/question-card.css";
+@import "components/bookmark.css";
+@import "components/nav.css";
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
+
 body {
   background-color: lemonchiffon;
   font-family: system-ui;
@@ -24,41 +31,7 @@ main {
   margin-bottom: 150px;
 }
 
-.question-card {
-  height: 300px;
-  width: 300px;
-  border: 3px solid rgb(167, 102, 228);
-  border-radius: 12px;
-  margin: 10px;
-  padding: 10px;
-  position: relative;
-}
-.question-text {
-  font-size: 1.5rem;
-  text-align: center;
-  padding-top: 40px;
-}
-.bookmark {
-  font-size: 2rem;
-  border-radius: 50%;
-  padding: 0;
-  background-color: aquamarine;
-  position: absolute;
-  top: -10px;
-  left: 160px;
-}
-
-.bookmarked {
-  font-size: 2rem;
-  border-radius: 50%;
-  padding: 0;
-  background-color: rgb(167, 102, 228);
-  position: absolute;
-  top: -10px;
-  left: 160px;
-}
-
-button {
+.answerbutton {
   width: 150px;
   height: 50px;
   font-size: large;
@@ -91,30 +64,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 10px;
-}
-.nav-icon {
-  font-size: 4rem;
-  background-color: aquamarine;
-  /*border: 2px solid darkmagenta;*/
-  border-radius: 3px;
-  padding: 10px 80px 20px 80px;
-  text-decoration: none;
-}
-
-.nav-icon-active {
-  font-size: 4rem;
-  background-color: rgb(167, 102, 228);
-  /*border: 2px solid darkmagenta;*/
-  border-radius: 3px;
-  padding: 10px 80px 20px 80px;
-  text-decoration: none;
 }
 
 .profile {
