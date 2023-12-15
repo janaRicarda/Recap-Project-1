@@ -7,16 +7,17 @@ nav {
 }
 .nav-icon {
   font-size: 4rem;
-  background-color: aquamarine;
-  border-radius: 3px;
+  background-color: var(--tertiary-color);
+  border: 3px solid var(--border-color);
+  border-radius: 12px;
   padding: 10px 80px 20px 80px;
   text-decoration: none;
 }
 
 .nav-icon-active {
   font-size: 4rem;
-  background-color: rgb(167, 102, 228);
-  border-radius: 3px;
+  background-color: var(--border-color);
+  border-radius: 12px;
   padding: 10px 80px 20px 80px;
   text-decoration: none;
 }

@@ -23,12 +23,13 @@ header {
   background-color: var(--secondary-color);
   padding: 5px;
   text-align: center;
+  border-bottom: 3px solid var(--border-color);
 }
 
 h1 {
-  font-size: 3rem;
-  color: aquamarine;
-  text-shadow: 0 0 5px darkmagenta;
+  font-size: 3.5rem;
+  color: var(--tertiary-color);
+  text-shadow: 0 0 5px var(--border-color);
   text-transform: uppercase;
 }
 main {
@@ -61,7 +62,7 @@ main {
   background-color: var(--tertiary-color);
   border-radius: 12px;
   position: absolute;
-  bottom: -10px;
+  bottom: -18px;
   left: 8px;
   z-index: 2;
 }
@@ -110,10 +111,12 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  border-top: 3px solid var(--border-color);
 }
 
 .profile {
   background-color: var(--tertiary-color);
+  border-radius: 12px;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 10px;

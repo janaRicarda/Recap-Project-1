@@ -1,9 +1,9 @@
 .bookmark {
   font-size: 2rem;
-  border: 1px solid aquamarine;
+  border: 3px solid var(--border-color);
   border-radius: 50%;
   padding: 10px 15px 10px 15px;
-  background-color: aquamarine;
+  background-color: var(--tertiary-color);
   position: absolute;
   top: -10px;
   right: -20px;
@@ -11,10 +11,10 @@
 
 .bookmark--active {
   font-size: 2rem;
-  border: 1px solid rgb(167, 102, 228);
+  border: 1px solid var(--border-color);
   border-radius: 50%;
   padding: 10px 15px 10px 15px;
-  background-color: rgb(167, 102, 228);
+  background-color: var(--border-color);
   position: absolute;
   top: -10px;
   right: -20px;
