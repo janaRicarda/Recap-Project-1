@@ -48,21 +48,22 @@ main {
   position: absolute;
   bottom: 90px;
   left: 76px;
-  z-index: 1;
 }
 
 .answer {
-  width: 150px;
-  height: 50px;
-  font-size: large;
+  width: 280px;
+  height: 80px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 15px;
   border: 3px solid var(--border-color);
   color: var(--border-color);
   background-color: var(--tertiary-color);
   border-radius: 12px;
   position: absolute;
-  bottom: 90px;
-  left: 76px;
-  z-index: -1;
+  bottom: -10px;
+  left: 8px;
+  z-index: 2;
 }
 
 .question:hover {
@@ -71,8 +72,7 @@ main {
 }
 
 /*.answer {
-  display: none;
-  width: 300px;
+  width: 150px;
   height: 150px;
   text-align: center;
   color: var(--border-color);
@@ -82,10 +82,14 @@ main {
   border: 2px solid var(--border-color);
   border-radius: 12px;
   position: absolute;
-  bottom: -30px;
+  bottom: 0;
   left: -4px;
-  z-index: 1;
+  z-index: 2;
 }*/
+
+.answer--show {
+  display: none;
+}
 
 .hashtag-section {
   display: flex;
