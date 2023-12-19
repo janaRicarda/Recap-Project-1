@@ -38,6 +38,8 @@ main {
   justify-content: center;
   align-items: center;
   margin-bottom: 150px;
+  padding-top: 5%;
+  gap: 1rem;
 }
 
 .question {
@@ -110,7 +112,8 @@ footer {
   background-color: var(--secondary-color);
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 95%;
+  height: fit-content;
   border-top: 3px solid var(--border-color);
 }
 
