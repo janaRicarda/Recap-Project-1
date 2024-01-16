@@ -5,22 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><form action=""></form></title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="JS/index.js" defer></script>
+    <script src="/JS/form.js" defer></script>
   </head>
   <body>
     <header aria-labelledby="title">
       <h1 id="title">Spice Quiz</h1>
     </header>
-    <main>
-      <form class="form">
-        <label for="question">Your question:</label>
-        <textarea id="question"></textarea>
-        <label for="answer">Your answer:</label>
-        <textarea id="answer"></textarea>
-        <label for="tag">Tag:</label>
-        <input id="tag" />
-        <button type="submit">Submit</button>
-      </form>
+    <main data-js="main">
+      <section class="question-card">
+        <form class="form" data-js="form">
+          <label for="question">Your question:</label>
+          <textarea
+            id="question"
+            name="question"
+            maxlength="150"
+            cols="30"
+            rows="5"
+            data-js="questionInput"
+          ></textarea>
+          <label for="answer">Your answer:</label>
+          <textarea
+            id="answer"
+            name="answer"
+            maxlength="150"
+            cols="30"
+            rows="5"
+            data-js="answerInput"
+          ></textarea>
+          <label for="tag">Tag:</label>
+          <input id="tag" name="tag" type="text" data-js="tag" />
+          <button class="button-create" type="submit" data-js="submitButton">
+            Create Quiz Card
+          </button>
+        </form>
+      </section>
     </main>
     <footer>
       <nav class="nav">

@@ -50,8 +50,23 @@ main {
   border: 3px solid var(--border-color);
   border-radius: 12px;
   position: absolute;
-  bottom: 90px;
-  left: 76px;
+  bottom: 150px;
+  left: 90px;
+}
+
+.button-create {
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  border: 3px solid var(--border-color);
+  border-radius: 12px;
+  align-self: center;
+  margin-top: 0.5rem;
+}
+
+.button-create:hover {
+  background-color: var(--tertiary-color);
+  color: var(--border-color);
 }
 
 .answer {
@@ -66,7 +81,7 @@ main {
   border-radius: 12px;
   position: absolute;
   bottom: -18px;
-  left: 8px;
+  left: 25px;
   z-index: 2;
 }
 
