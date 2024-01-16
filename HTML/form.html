@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><form action=""></form></title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/JS/form.js" defer></script>
+  </head>
+  <body>
+    <header aria-labelledby="title">
+      <h1 id="title">Spice Quiz</h1>
+    </header>
+    <main data-js="main">
+      <section class="question-card">
+        <form class="form" data-js="form">
+          <label for="question">Your question:</label>
+          <textarea
+            id="question"
+            name="question"
+            maxlength="150"
+            cols="30"
+            rows="5"
+            data-js="questionInput"
+          ></textarea>
+          <label for="answer">Your answer:</label>
+          <textarea
+            id="answer"
+            name="answer"
+            maxlength="150"
+            cols="30"
+            rows="5"
+            data-js="answerInput"
+          ></textarea>
+          <label for="tag">Tag:</label>
+          <input id="tag" name="tag" type="text" data-js="tag" />
+          <button class="button-create" type="submit" data-js="submitButton">
+            Create Quiz Card
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav class="nav">
+        <a class="nav-icon" aria-label="home-page" href="/index.html">🏠</a>
+        <a class="nav-icon" aria-label="bookmarks-page" href="/bookmark.html"
+          >🌶️</a
+        >
+        <a class="nav-icon-active" aria-label="form-page" href="/HTML/form.html"
+          >➕</a
+        >
+        <a class="nav-icon" aria-label="profile-page" href="/profil.html">👩🏻</a>
+      </nav>
+    </footer>
+  </body>
+</html>

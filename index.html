@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spice Quiz</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="JS/index.js" defer></script>
   </head>
   <body>
     <header aria-labelledby="title">
       <h1 id="title">Spice Quiz</h1>
     </header>
-    <main>
+    <main data-js="main">
       <section class="question-card">
         <p class="question-text">Welcher Klee gehört ins Curry?</p>
-        <button aria-label="bookmark-icon" class="bookmark">🌶️</button>
-        <button class="answerbutton">Show Answer</button>
+        <button
+          aria-label="bookmark-icon"
+          class="bookmark"
+          data-js="bookmarkButton"
+        >
+          🌶️
+        </button>
+        <button class="question" data-js="answerButton">Show answer</button>
+        <p class="answer answer--show" data-js="answer">Bockshornklee</p>
         <section class="hashtag-section">
           <p class="hashtag">#quiz</p>
           <p class="hashtag">#spices</p>
@@ -24,7 +32,8 @@
       <section class="question-card">
         <p class="question-text">Welches Gewürz ist eine Baumrinde?</p>
         <button aria-label="bookmark-icon" class="bookmark">🌶️</button>
-        <button class="answerbutton">Show Answer</button>
+        <button class="question" data-js="question">Show Answer</button>
+        <p class="answer answer--show" data-js="answer">Zimt</p>
         <section class="hashtag-section">
           <p class="hashtag">#quiz</p>
           <p class="hashtag">#spices</p>
@@ -34,7 +43,7 @@
       <section class="question-card">
         <p class="question-text">Mit welcher Orchidee wird gebacken?</p>
         <button aria-label="bookmark-icon" class="bookmark">🌶️</button>
-        <button class="answerbutton">Show Answer</button>
+        <button class="question">Show Answer</button>
         <section class="hashtag-section">
           <p class="hashtag">#quiz</p>
           <p class="hashtag">#spices</p>
@@ -50,6 +59,7 @@
         <a class="nav-icon" aria-label="bookmarks-page" href="bookmark.html"
           >🌶️</a
         >
+        <a class="nav-icon" aria-label="form-page" href="/HTML/form.html">➕</a>
         <a class="nav-icon" aria-label="profile-page" href="profil.html">👩🏻</a>
       </nav>
     </footer>
